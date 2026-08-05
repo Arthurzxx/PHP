@@ -1,0 +1,20 @@
+<?php 
+require_once "proteger.php";
+
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Sistema de Biblioteca</h1>
+    <p> Bem-vindo, <?= $_SESSION["usuario"] ?> </p>
+    <a href="cadastro_livro.php"> Cadastrar livro </a> <br><br> <a href="logout.php"> Sair </a>
+</body>
+
+</html>
